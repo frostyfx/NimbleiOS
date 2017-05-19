@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B12C74071ECE029A00A40477 /* TopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C74051ECE029A00A40477 /* TopCell.m */; };
+		B12C74081ECE029A00A40477 /* TopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12C74061ECE029A00A40477 /* TopCell.xib */; };
+		B142EA321ECDF87400560315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B142EA311ECDF87400560315 /* main.m */; };
+		B142EA351ECDF87400560315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B142EA341ECDF87400560315 /* AppDelegate.m */; };
+		B142EA3B1ECDF87400560315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B142EA391ECDF87400560315 /* Main.storyboard */; };
+		B142EA3D1ECDF87400560315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B142EA3C1ECDF87400560315 /* Assets.xcassets */; };
+		B142EA401ECDF87400560315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B142EA3E1ECDF87400560315 /* LaunchScreen.storyboard */; };
+		B142EA4B1ECDF87400560315 /* NimbleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B142EA4A1ECDF87400560315 /* NimbleAppTests.m */; };
+		B142EA561ECDF87500560315 /* NimbleAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B142EA551ECDF87500560315 /* NimbleAppUITests.m */; };
+		B142EA721ECDFCE700560315 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B142EA711ECDFCE700560315 /* HomeViewController.m */; };
+		B142EA781ECDFCEF00560315 /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B142EA741ECDFCEF00560315 /* TableCell.m */; };
+		B142EA791ECDFCEF00560315 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B142EA751ECDFCEF00560315 /* TableCell.xib */; };
+		B142EA7A1ECDFCEF00560315 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B142EA771ECDFCEF00560315 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B142EA471ECDF87400560315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B142EA251ECDF87400560315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B142EA2C1ECDF87400560315;
+			remoteInfo = NimbleApp;
+		};
+		B142EA521ECDF87500560315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B142EA251ECDF87400560315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B142EA2C1ECDF87400560315;
+			remoteInfo = NimbleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B12C74041ECE029A00A40477 /* TopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopCell.h; sourceTree = "<group>"; };
+		B12C74051ECE029A00A40477 /* TopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopCell.m; sourceTree = "<group>"; };
+		B12C74061ECE029A00A40477 /* TopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopCell.xib; sourceTree = "<group>"; };
+		B142EA2D1ECDF87400560315 /* NimbleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimbleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B142EA311ECDF87400560315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B142EA331ECDF87400560315 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B142EA341ECDF87400560315 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B142EA3A1ECDF87400560315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B142EA3C1ECDF87400560315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B142EA3F1ECDF87400560315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B142EA411ECDF87400560315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B142EA461ECDF87400560315 /* NimbleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B142EA4A1ECDF87400560315 /* NimbleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NimbleAppTests.m; sourceTree = "<group>"; };
+		B142EA4C1ECDF87400560315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B142EA511ECDF87500560315 /* NimbleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B142EA551ECDF87500560315 /* NimbleAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NimbleAppUITests.m; sourceTree = "<group>"; };
+		B142EA571ECDF87500560315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B142EA701ECDFCE700560315 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B142EA711ECDFCE700560315 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B142EA731ECDFCEF00560315 /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		B142EA741ECDFCEF00560315 /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		B142EA751ECDFCEF00560315 /* TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
+		B142EA761ECDFCEF00560315 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		B142EA771ECDFCEF00560315 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B142EA2A1ECDF87400560315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B142EA431ECDF87400560315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B142EA4E1ECDF87500560315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B142EA241ECDF87400560315 = {
+			isa = PBXGroup;
+			children = (
+				B142EA2F1ECDF87400560315 /* NimbleApp */,
+				B142EA491ECDF87400560315 /* NimbleAppTests */,
+				B142EA541ECDF87500560315 /* NimbleAppUITests */,
+				B142EA2E1ECDF87400560315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B142EA2E1ECDF87400560315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B142EA2D1ECDF87400560315 /* NimbleApp.app */,
+				B142EA461ECDF87400560315 /* NimbleAppTests.xctest */,
+				B142EA511ECDF87500560315 /* NimbleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B142EA2F1ECDF87400560315 /* NimbleApp */ = {
+			isa = PBXGroup;
+			children = (
+				B142EA331ECDF87400560315 /* AppDelegate.h */,
+				B142EA341ECDF87400560315 /* AppDelegate.m */,
+				B142EA631ECDF9D500560315 /* HomeView */,
+				B142EA641ECDF9E100560315 /* VolumeManagerView */,
+				B142EA391ECDF87400560315 /* Main.storyboard */,
+				B142EA3E1ECDF87400560315 /* LaunchScreen.storyboard */,
+				B142EA3C1ECDF87400560315 /* Assets.xcassets */,
+				B142EA411ECDF87400560315 /* Info.plist */,
+				B142EA301ECDF87400560315 /* Supporting Files */,
+			);
+			path = NimbleApp;
+			sourceTree = "<group>";
+		};
+		B142EA301ECDF87400560315 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B142EA311ECDF87400560315 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B142EA491ECDF87400560315 /* NimbleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B142EA4A1ECDF87400560315 /* NimbleAppTests.m */,
+				B142EA4C1ECDF87400560315 /* Info.plist */,
+			);
+			path = NimbleAppTests;
+			sourceTree = "<group>";
+		};
+		B142EA541ECDF87500560315 /* NimbleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B142EA551ECDF87500560315 /* NimbleAppUITests.m */,
+				B142EA571ECDF87500560315 /* Info.plist */,
+			);
+			path = NimbleAppUITests;
+			sourceTree = "<group>";
+		};
+		B142EA631ECDF9D500560315 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				B142EA701ECDFCE700560315 /* HomeViewController.h */,
+				B142EA711ECDFCE700560315 /* HomeViewController.m */,
+			);
+			name = HomeView;
+			sourceTree = "<group>";
+		};
+		B142EA641ECDF9E100560315 /* VolumeManagerView */ = {
+			isa = PBXGroup;
+			children = (
+				B12C74041ECE029A00A40477 /* TopCell.h */,
+				B12C74051ECE029A00A40477 /* TopCell.m */,
+				B12C74061ECE029A00A40477 /* TopCell.xib */,
+				B142EA731ECDFCEF00560315 /* TableCell.h */,
+				B142EA741ECDFCEF00560315 /* TableCell.m */,
+				B142EA751ECDFCEF00560315 /* TableCell.xib */,
+				B142EA761ECDFCEF00560315 /* TableViewController.h */,
+				B142EA771ECDFCEF00560315 /* TableViewController.m */,
+			);
+			name = VolumeManagerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B142EA2C1ECDF87400560315 /* NimbleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B142EA5A1ECDF87500560315 /* Build configuration list for PBXNativeTarget "NimbleApp" */;
+			buildPhases = (
+				B142EA291ECDF87400560315 /* Sources */,
+				B142EA2A1ECDF87400560315 /* Frameworks */,
+				B142EA2B1ECDF87400560315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimbleApp;
+			productName = NimbleApp;
+			productReference = B142EA2D1ECDF87400560315 /* NimbleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B142EA451ECDF87400560315 /* NimbleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B142EA5D1ECDF87500560315 /* Build configuration list for PBXNativeTarget "NimbleAppTests" */;
+			buildPhases = (
+				B142EA421ECDF87400560315 /* Sources */,
+				B142EA431ECDF87400560315 /* Frameworks */,
+				B142EA441ECDF87400560315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B142EA481ECDF87400560315 /* PBXTargetDependency */,
+			);
+			name = NimbleAppTests;
+			productName = NimbleAppTests;
+			productReference = B142EA461ECDF87400560315 /* NimbleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B142EA501ECDF87500560315 /* NimbleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B142EA601ECDF87500560315 /* Build configuration list for PBXNativeTarget "NimbleAppUITests" */;
+			buildPhases = (
+				B142EA4D1ECDF87500560315 /* Sources */,
+				B142EA4E1ECDF87500560315 /* Frameworks */,
+				B142EA4F1ECDF87500560315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B142EA531ECDF87500560315 /* PBXTargetDependency */,
+			);
+			name = NimbleAppUITests;
+			productName = NimbleAppUITests;
+			productReference = B142EA511ECDF87500560315 /* NimbleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B142EA251ECDF87400560315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = frostyFX;
+				TargetAttributes = {
+					B142EA2C1ECDF87400560315 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B142EA451ECDF87400560315 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B142EA2C1ECDF87400560315;
+					};
+					B142EA501ECDF87500560315 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B142EA2C1ECDF87400560315;
+					};
+				};
+			};
+			buildConfigurationList = B142EA281ECDF87400560315 /* Build configuration list for PBXProject "NimbleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B142EA241ECDF87400560315;
+			productRefGroup = B142EA2E1ECDF87400560315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B142EA2C1ECDF87400560315 /* NimbleApp */,
+				B142EA451ECDF87400560315 /* NimbleAppTests */,
+				B142EA501ECDF87500560315 /* NimbleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B142EA2B1ECDF87400560315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B142EA401ECDF87400560315 /* LaunchScreen.storyboard in Resources */,
+				B142EA3D1ECDF87400560315 /* Assets.xcassets in Resources */,
+				B12C74081ECE029A00A40477 /* TopCell.xib in Resources */,
+				B142EA791ECDFCEF00560315 /* TableCell.xib in Resources */,
+				B142EA3B1ECDF87400560315 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B142EA441ECDF87400560315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B142EA4F1ECDF87500560315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B142EA291ECDF87400560315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B142EA351ECDF87400560315 /* AppDelegate.m in Sources */,
+				B142EA321ECDF87400560315 /* main.m in Sources */,
+				B142EA781ECDFCEF00560315 /* TableCell.m in Sources */,
+				B12C74071ECE029A00A40477 /* TopCell.m in Sources */,
+				B142EA7A1ECDFCEF00560315 /* TableViewController.m in Sources */,
+				B142EA721ECDFCE700560315 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B142EA421ECDF87400560315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B142EA4B1ECDF87400560315 /* NimbleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B142EA4D1ECDF87500560315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B142EA561ECDF87500560315 /* NimbleAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B142EA481ECDF87400560315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B142EA2C1ECDF87400560315 /* NimbleApp */;
+			targetProxy = B142EA471ECDF87400560315 /* PBXContainerItemProxy */;
+		};
+		B142EA531ECDF87500560315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B142EA2C1ECDF87400560315 /* NimbleApp */;
+			targetProxy = B142EA521ECDF87500560315 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B142EA391ECDF87400560315 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B142EA3A1ECDF87400560315 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B142EA3E1ECDF87400560315 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B142EA3F1ECDF87400560315 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B142EA581ECDF87500560315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B142EA591ECDF87500560315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B142EA5B1ECDF87500560315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NimbleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = frostyFX.NimbleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B142EA5C1ECDF87500560315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NimbleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = frostyFX.NimbleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B142EA5E1ECDF87500560315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NimbleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = frostyFX.NimbleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimbleApp.app/NimbleApp";
+			};
+			name = Debug;
+		};
+		B142EA5F1ECDF87500560315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NimbleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = frostyFX.NimbleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimbleApp.app/NimbleApp";
+			};
+			name = Release;
+		};
+		B142EA611ECDF87500560315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NimbleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = frostyFX.NimbleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NimbleApp;
+			};
+			name = Debug;
+		};
+		B142EA621ECDF87500560315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NimbleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = frostyFX.NimbleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NimbleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B142EA281ECDF87400560315 /* Build configuration list for PBXProject "NimbleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B142EA581ECDF87500560315 /* Debug */,
+				B142EA591ECDF87500560315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B142EA5A1ECDF87500560315 /* Build configuration list for PBXNativeTarget "NimbleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B142EA5B1ECDF87500560315 /* Debug */,
+				B142EA5C1ECDF87500560315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B142EA5D1ECDF87500560315 /* Build configuration list for PBXNativeTarget "NimbleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B142EA5E1ECDF87500560315 /* Debug */,
+				B142EA5F1ECDF87500560315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B142EA601ECDF87500560315 /* Build configuration list for PBXNativeTarget "NimbleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B142EA611ECDF87500560315 /* Debug */,
+				B142EA621ECDF87500560315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B142EA251ECDF87400560315 /* Project object */;
+}
